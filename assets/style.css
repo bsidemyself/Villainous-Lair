@@ -1,1 +1,111 @@
-/* css style goes here */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: black;
+    --red: rgb(128, 1, 1);
+    --gold: rgb(177, 166, 14);
+    --tan: rgb(179, 135, 84);
+}
+
+body {
+    font-family: 'MedievalSharp';font-size: 22px;
+    background-color: var(--black);
+}
+header {
+    background-color: var(--black);
+    color: var(--gold);
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 6px var(--red);
+
+  }
+  header h1 {
+    color: var(--gold);
+    padding-left: 20px;
+  }
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+nav li {
+    display: inline-block;
+    justify-content: space-between;
+    color: var(--gold);
+}
+nav ul li a {
+    display: flex;
+    color: var(--gold);
+    justify-content:space-between;
+    padding: 10px;
+}
+#bkgnd-photo1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/jeff-easley-16.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 85%;
+
+}
+
+#bkgnd-photo2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/dragonlance-shadow-of-the-dragon-queen.webp);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 85%;
+
+}
+
+#bkgnd-photo3 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/dunegeons-and-dragons-essentials-kit-artwork.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 85%;
+
+}
+
+#bkgnd-photo4 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/ilse-gort-stormwreck-isle-starter-set-dungeons-dragons.png);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 85%;
+
+}
+ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+    color: var(--gold);
+    margin: auto;
+    font-size: 85%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: solid 6px var(--red);
+
+}
