@@ -19,14 +19,15 @@ body {
     background-color: var(--black);
 }
 header {
-    background-color: var(--black);
+    background-image: url(../assets/images/29bfdabcfc9cd4ef93336011e7d17532.jpg);
+    background-blend-mode: lighten;
     color: var(--gold);
     width: 100%;
     margin: 0 auto;
     padding: 5px;
     padding-top: 30px;
     padding-bottom: 30px;
-    border-bottom: solid 6px var(--red);
+    border-bottom: solid 3px var(--red);
 
   }
   header h1 {
@@ -34,9 +35,15 @@ header {
     padding-left: 20px;
     ;
   }
-nav ul {
+
+  nav {
+    background-image: url(../assets/images/DandD.jpg);
+  }
+
+  nav ul {
     list-style-type: none;
     float: right;
+    
 }
 nav li {
     display: inline-block;
@@ -48,6 +55,7 @@ nav ul li a {
     color: var(--gold);
     justify-content:space-between;
     padding: 10px;
+    margin-right: 25px;
 }
 #bkgnd-photo1 {
     display: flex;
