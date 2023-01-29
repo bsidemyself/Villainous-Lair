@@ -10,6 +10,10 @@
     --tan: rgb(179, 135, 84);
 }
 
+#dragon {
+
+}
+
 body {
     font-family: 'MedievalSharp';font-size: 22px;
     background-color: var(--black);
@@ -28,6 +32,7 @@ header {
   header h1 {
     color: var(--gold);
     padding-left: 20px;
+    ;
   }
 nav ul {
     list-style-type: none;
