@@ -107,6 +107,8 @@ nav ul li a {
 }
 #location-message {
     color: var(--gold);
+    margin-top: 20px;
+    text-align: center;
 }
  
 
@@ -121,4 +123,9 @@ footer {
     padding-bottom: 30px;
     border-top: solid 6px var(--red);
 
+}
+
+#snazzymap {
+margin-top: 210px;
+margin-left: 280px;
 }
