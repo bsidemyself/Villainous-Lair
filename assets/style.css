@@ -79,7 +79,7 @@ nav ul li a {
 }
 
 #bkgnd-photo3 {
-    display: flex;
+    display: block;
     margin: 0;
     padding: 0;
     background-image: url(../assets/images/dunegeons-and-dragons-essentials-kit-artwork.jpg);
@@ -88,6 +88,8 @@ nav ul li a {
     width: 100%;
     background-repeat: no-repeat;
     opacity: 85%;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -102,6 +104,9 @@ nav ul li a {
     background-repeat: no-repeat;
     opacity: 85%;
 
+}
+#location-message {
+    color: var(--gold);
 }
  
 
