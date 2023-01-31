@@ -10,9 +10,7 @@
     --tan: rgb(179, 135, 84);
 }
 
-#dragon {
 
-}
 
 body {
     font-family: 'MedievalSharp';font-size: 22px;
@@ -36,9 +34,6 @@ header {
     ;
   }
 
-  nav {
-    background-image: url(../assets/images/DandD.jpg);
-  }
 
   nav ul {
     list-style-type: none;
