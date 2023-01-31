@@ -138,17 +138,16 @@ a:hover {
     transition: 0.3s;
 }
 
-iframe {
+/* iframe {
     border: none;
     border-radius: 2rem;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     margin: 2rem auto;
     padding: 2rem;
-  }
+  } */
 
 #snazzymap {
 margin-top: 210px;
 margin-left: 286px;
 }
-
