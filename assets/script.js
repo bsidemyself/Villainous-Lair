@@ -19,7 +19,6 @@
     createCharacter();
   });
 
-
 const url = new URL(
     "https://dddice.com/api/1.0/roll"
 );
@@ -64,3 +63,4 @@ fetch(url, {
     headers,
     body: JSON.stringify(body),
 }).then(response => response.json());
+
