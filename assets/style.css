@@ -147,8 +147,19 @@ iframe {
     padding: 2rem;
   }
 
+#roll{
+position: absolute;
+width: 10%;
+height: 4%;
+margin-top: 50px;
+}
+
+
+
 #snazzymap {
 margin-top: 210px;
+position: relative;
+margin-left: 13%;
 }
 
 @media screen and (max-width: 700px) {
