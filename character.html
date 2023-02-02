@@ -29,44 +29,74 @@
 
         </header>
     <section id="bkgnd-photo2">
-        <section id="character-creation">
-            <h2>Create Your Character</h2>
-            <div class="card">
-              <form action="#" method="post">
-                <label for="char-name">Name:</label>
-                <input type="text" id="char-name" name="char-name">
-          
-                <label for="char-class">Class:</label>
-                <select id="char-class" name="char-class">
-                  <option value="barbarian">Barbarian</option>
-                  <option value="bard">Bard</option>
-                  <option value="cleric">Cleric</option>
-                  <option value="druid">Druid</option>
-                  <option value="fighter">Fighter</option>
-                  <option value="monk">Monk</option>
-                  <option value="paladin">Paladin</option>
-                  <option value="ranger">Ranger</option>
-                  <option value="rogue">Rogue</option>
-                  <option value="sorcerer">Sorcerer</option>
-                  <option value="warlock">Warlock</option>
-                  <option value="wizard">Wizard</option>
-                </select>
-          
-                <input type="submit" value="Create">
-              </form>
-            </div>
-          </section>
+      <section id="character-creation">
+        <h2>Create Your Character</h2>
+        <div class="card">
+          <form action="#" method="post">
+            <label for="char-name">Name:</label>
+            <input type="text" id="char-name" name="char-name">
+      
+            <label for="char-race">Race:</label>
+            <select id="char-race" name="char-race">
+              <option value="Dwarf">Dwarf</option>
+              <option value="Elf">Elf</option>
+              <option value="Halfling">Halfling</option>
+              <option value="Human">Human</option>
+              <option value="Dragonborn">Dragonborn</option>
+              <option value="Gnome">Gnome</option>
+              <option value="Half-Elf">Half-Elf</option>
+              <option value="Half-Orc">Half-Orc</option>
+              <option value="Tiefling">Tiefling</option>
+            </select>
+      
+            <label for="char-class">Class:</label>
+            <select id="char-class" name="char-class">
+              <option value="Barbarian">Barbarian</option>
+              <option value="Bard">Bard</option>
+              <option value="Cleric">Cleric</option>
+              <option value="Druid">Druid</option>
+              <option value="Fighter">Fighter</option>
+              <option value="Monk">Monk</option>
+              <option value="Paladin">Paladin</option>
+              <option value="Ranger">Ranger</option>
+              <option value="Rogue">Rogue</option>
+              <option value="Sorcerer">Sorcerer</option>
+              <option value="Warlock">Warlock</option>
+              <option value="Wizard">Wizard</option>
+            </select>
+
+            <label for="char-level">Level:</label>
+            <input type="number" id="char-level" name="char-level" min="1" max="20">
+      
+            <label for="char-alignment">Alignment:</label>
+            <select id="char-alignment" name="char-alignment">
+              <option value="Lawful Good">Lawful Good</option>
+              <option value="Neutral Good">Neutral Good</option>
+              <option value="Chaotic Good">Chaotic Good</option>
+              <option value="Lawful Neutral">Lawful Neutral</option>
+              <option value="true Neutral">True Neutral</option>
+              <option value="Chaotic Neutral">Chaotic Neutral</option>
+              <option value="Lawful Evil">Lawful Evil</option>
+              <option value="Neutral Evil">Neutral Evil</option>
+              <option value="Chaotic Evil">Chaotic Evil</option>
+            </select>
+      
+            <input type="submit" value="Create">
+          </form>
+        </div>
+      </section>
           
           <section id="char-info">
           
           </section>
-            </div>
-          </section>
-          </section>
-
           
-          
-          
+          <div class="card" id="char-card">
+            <p>Name: <label id="char-name"></label></p>
+            <p>Race: <label id="char-race"></label></p>
+            <p>Class: <label id="char-class"></label></p>
+            <p>Level: <label id="char-level"></label></p>
+            <p>Alignment: <label id="char-alignment"></label></p>
+          </div>
 
     </section>
     <footer>By Dillon, Matthew, Stephen and James.  All images and D&D content used for education purposes only and copyright their respective owners.</footer>
