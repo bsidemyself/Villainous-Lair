@@ -113,8 +113,9 @@ nav ul li a {
 
 }
 #location-message {
-    color: var(--gold);
-    margin-top: 20px;
+    color: var(--black);
+    text-decoration: solid;
+    margin-top: 30px;
     text-align: center;
 }
  
@@ -138,40 +139,20 @@ a:hover {
     transition: 0.3s;
 }
 
-iframe {
+/* iframe {
     border: none;
     border-radius: 2rem;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     margin: 2rem auto;
     padding: 2rem;
-  }
-
-#roll{
-position: static;
-width: 10%;
-height: 4%;
-margin-top: 25%;
-margin-left: 25%;
-margin-right: 25%;
-margin-bottom: 25%;
-}
- button {
-    color: var(--gold);
-    background-color: var(--tan);
-    
- }
- button:hover {
-    cursor: pointer;
- }
-
-
+  } */
 
 #snazzymap {
 margin-top: 210px;
-position: relative;
-margin-left: 13%;
+margin-left: 286px;
 }
+
 
 /* Character Creation page essentials! */
 h2 {
