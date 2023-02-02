@@ -113,8 +113,9 @@ nav ul li a {
 
 }
 #location-message {
-    color: var(--gold);
-    margin-top: 20px;
+    color: var(--black);
+    text-decoration: solid;
+    margin-top: 30px;
     text-align: center;
 }
  
