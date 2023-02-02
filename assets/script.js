@@ -19,6 +19,17 @@
     createCharacter();
   });
 
+
+  function CreateDiceRoller () {
+    const button = document.getElementById("#roll").value
+
+    localStorage.setItem("button", button);
+
+  }
+button.addEventListener('click', function(event){
+    event.URL
+});
+
 const url = new URL(
     "https://dddice.com/api/1.0/roll"
 );

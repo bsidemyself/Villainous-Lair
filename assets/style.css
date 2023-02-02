@@ -149,7 +149,6 @@ iframe {
 
 #snazzymap {
 margin-top: 210px;
-margin-left: 286px;
 }
 
 @media screen and (max-width: 700px) {
@@ -158,5 +157,7 @@ margin-left: 286px;
     }
 }
     @media screen and (max-width: 10px) {
-    
+   header {
+    size: 50%;
+   } 
     }
