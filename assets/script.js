@@ -27,7 +27,7 @@
       } else if (charLevel === '') {
         window.alert("Please enter a level.");
       } else {
-        charInfo.innerHTML = `
+        charCard.innerHTML = `
           <p>Name: <label id="char-name">${charName}</label></p>
           <p>Race: <label id="char-race">${charRace}</label></p>
           <p>Class: <label id="char-class">${charClass}</label></p>
