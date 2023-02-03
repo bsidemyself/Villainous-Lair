@@ -1,143 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    --black: black;
-    --red: rgb(128, 1, 1);
-    --gold: rgb(177, 166, 14);
-    --tan: rgb(179, 135, 84);
-}
-
-body {
-    font-family: 'MedievalSharp';font-size: 22px;
-    background-color: var(--black);
-}
-header {
-    background-image: url(../assets/images/29bfdabcfc9cd4ef93336011e7d17532.jpg);
-    background-blend-mode: lighten;
-    color: var(--gold);
-    width: 100%;
-    margin: 0 auto;
-    padding: 5px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-bottom: solid 3px var(--red);
-
-  }
-
-  .gif {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 1rem;
-  }
-
-  header h1 {
-    color: var(--gold);
-    padding-left: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    
-  }
-
-
-  nav ul {
-    list-style-type: none;
-    float: right;
-    
-}
-nav li {
-    display: inline-block;
-    justify-content: space-between;
-    color: var(--gold);
-}
-nav ul li a {
-    display: flex;
-    color: var(--gold);
-    justify-content:space-between;
-    padding: 10px;
-    margin-right: 25px;
-}
-#bkgnd-photo1 {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    background-image: url(../assets/images/jeff-easley-16.jpg);
-    background-size: cover;
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
-    opacity: 85%;
-
-}
-
-#bkgnd-photo2 {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    background-image: url(../assets/images/dragonlance-shadow-of-the-dragon-queen.webp);
-    background-size: cover;
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
-    opacity: 85%;
-
-}
-
-#bkgnd-photo3 {
-    display: block;
-    margin: 0;
-    padding: 0;
-    background-image: url(../assets/images/dunegeons-and-dragons-essentials-kit-artwork.jpg);
-    background-size: cover;
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
-    opacity: 85%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#bkgnd-photo4 {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    background-image: url(../assets/images/ilse-gort-stormwreck-isle-starter-set-dungeons-dragons.png);
-    background-size: cover;
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
-    opacity: 85%;
-
-}
-#location-message {
-    color: var(--black);
-    text-decoration: solid;
-    margin-top: 30px;
-    text-align: center;
-}
- 
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: var(--black);
-    color: var(--gold);
-    margin: auto;
-    font-size: 85%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-top: solid 6px var(--red);
-
-}
-
-
-a:hover {
-    color:red;
-    transition: 0.3s;
-}
 
 #bkgnd-photo3 {
     display: flex;
@@ -153,7 +13,7 @@ a:hover {
     text-shadow: 2px 2px #333;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background: linear-gradient(to bottom, #3e8aa8, #00BFFF);
+    background: linear-gradient(to bottom, var(--red), #ff0000);
     color: white;
     margin-bottom: 20px;
     padding: 20px;
@@ -163,10 +23,11 @@ a:hover {
 }
 
 #snazzymap {
+
     width: 60%;
-    height: 600px;
+    height: 700px;
     margin-top: 20px;
-    border: 10px solid #ffffff;
+    border: 10px solid var(--red);
     box-shadow: 4px 4px 8px #333;
     border-radius: 10px;
 }
