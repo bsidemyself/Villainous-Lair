@@ -219,3 +219,22 @@ form {
   #char-card p {
     margin-bottom: 10px;
   }
+
+#roll-dice:hover {
+  cursor: pointer;
+  color: var(--red);
+}
+
+  #roll-dice {
+    color: var(--gold);
+    background-color: #000000;
+    font-family: 'MedievalSharp';font-size: 32px;
+justify-content: center;
+margin: auto;
+display: flex;
+height: min-content;
+width: 80px;
+margin-top: 750px;
+text-align: center;
+
+  }
