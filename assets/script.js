@@ -89,3 +89,36 @@ fetch(url, {
     body: JSON.stringify(body),
 }).then(response => response.json());
 
+// Spell Generator JS
+
+var spellLoreButton = document.getElementById("spell-lore-button")
+var spellName = document.getElementById("spell-name")
+var spellDescription = document.getElementById("spell-description")
+
+    async function getSpells(){
+        const spellResponse = await fetch('https://www.dnd5eapi.co/api/spells');
+        var dndSpells = await spellResponse.json();
+        console.log(dndSpells)
+         
+        
+         
+        num = Math.floor(Math.random()*320)
+        spellTitle = dndSpells.results[num].index
+               
+        randomSpell= 'https://www.dnd5eapi.co/api/spells/' + spellTitle
+            
+        var urlResponse = await fetch(randomSpell)
+        var spellObj = await urlResponse.json()
+        console.log(spellObj.name)
+        console.log(spellObj.desc)  
+        spellName.innerText = spellObj.name
+        spellDescription.innerText = spellObj.desc
+        console.log(spellName.innerText)
+        console.log(spellDescription.innerText)            
+}
+    spellLoreButton.addEventListener("click", () => {
+        getSpells()
+        })
+
+// Spell Generator JS
+
