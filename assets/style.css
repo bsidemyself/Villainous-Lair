@@ -158,3 +158,10 @@ a:hover {
     border: 4px solid;
     border-radius: 2rem;
   }
+
+  #welcome-text {
+    color: var(--tan);
+    line-height: 1.5;
+    margin: 10px;
+    text-align: center;
+  }
