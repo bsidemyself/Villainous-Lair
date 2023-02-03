@@ -1,5 +1,4 @@
 
-
   function createCharacter() {
 
     // Get the character information from the form
@@ -89,6 +88,11 @@ fetch(url, {
     body: JSON.stringify(body),
 }).then(response => response.json());
 
+
+
+
+
+
 // Spell Generator JS
 
 var spellLoreButton = document.getElementById("spell-lore-button")
@@ -99,9 +103,7 @@ var spellDescription = document.getElementById("spell-description")
         const spellResponse = await fetch('https://www.dnd5eapi.co/api/spells');
         var dndSpells = await spellResponse.json();
         console.log(dndSpells)
-         
-        
-         
+                  
         num = Math.floor(Math.random()*320)
         spellTitle = dndSpells.results[num].index
                
@@ -119,6 +121,4 @@ var spellDescription = document.getElementById("spell-description")
     spellLoreButton.addEventListener("click", () => {
         getSpells()
         })
-
 // Spell Generator JS
-
