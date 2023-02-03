@@ -153,9 +153,15 @@ a:hover {
     margin: auto;
     display: flex;
     height: min-content;
-    width: 80px;
+    width: 175px;
     margin-top: 750px;
     text-align: center;
-    border: 5px solid;
+    border: 4px solid;
     border-radius: 2rem;
+  }
+  #spell-lore-button {
+    font-family: 'MedievalSharp';font-size: 32px;
+    text-align: center;
+    display: flex;
+    margin: auto;
   }
