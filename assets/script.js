@@ -98,6 +98,7 @@ fetch(url, {
 var spellLoreButton = document.getElementById("spell-lore-button")
 var spellName = document.getElementById("spell-name")
 var spellDescription = document.getElementById("spell-description")
+var cardContainer = document.querySelector(".card-container");
 
     async function getSpells(){
         const spellResponse = await fetch('https://www.dnd5eapi.co/api/spells');
@@ -120,5 +121,6 @@ var spellDescription = document.getElementById("spell-description")
 }
     spellLoreButton.addEventListener("click", () => {
         getSpells()
+        cardContainer.style.display = "block";
         })
 // Spell Generator JS

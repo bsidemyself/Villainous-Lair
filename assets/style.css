@@ -60,7 +60,8 @@ nav ul li a {
     margin-right: 25px;
 }
 #bkgnd-photo1 {
-    display: flex;
+    display: column;
+    align-items: column;
     margin: 0;
     padding: 0;
     background-image: url(../assets/images/jeff-easley-16.jpg);
@@ -142,9 +143,42 @@ a:hover {
 #roll-dice:hover {
   cursor: pointer;
   color: var(--red);
+  transition: 0.3s;
 }
 
-  #roll-dice {
+#roll-dice, #spell-lore-button {
+    text-align: center;
+    margin-left: 10%
+    margin: 20px ;
+    padding: 10px 20px;
+    background-color: var(--black);
+    color: var(--gold);
+    border-radius: 5px;
+    border: 2px solid var(--red);
+    cursor: pointer;
+    height: min-content;
+    width: 175px;
+    text-align: center;
+    border: 4px solid;
+    border-radius: 2rem;
+    font-family: 'MedievalSharp';font-size: 32px;
+}
+  /* #roll-dice {
+    
+    background-color: #000000;
+
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    height: min-content;
+    width: 175px;
+    margin-top: 750px;
+    text-align: center;
+    border: 4px solid;
+    border-radius: 2rem;
+  }
+
+  #spell-lore-button {
     color: var(--gold);
     background-color: #000000;
     font-family: 'MedievalSharp';font-size: 32px;
@@ -157,4 +191,50 @@ a:hover {
     text-align: center;
     border: 4px solid;
     border-radius: 2rem;
+    transition: 0.3s;
+  } */
+
+  #spell-lore-button:hover {
+    color:red;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  #spell-name {
+    text-align: center;
+    background-color: var(--black);
+    color: var(--gold);
+    padding: 1%;
+    border: solid 4px;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
   }
+
+  #spell-description {
+    background-color: white;
+    margin:3%;
+    padding:1%;
+    border: solid 4px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5%;
+  }
+  
+  .card {
+    background-color: var(--black);
+    padding: 20px;
+    border: 5px solid var(--gold);
+    border-radius: 10px;
+    opacity: 80%;
+  }
+
+.card:hover {
+opacity: 100%;
+transition:0.4s;
+}
+  
