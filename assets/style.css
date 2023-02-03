@@ -130,6 +130,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 30px;
     border-top: solid 6px var(--red);
+    ;
 
 }
 
@@ -164,4 +165,9 @@ a:hover {
     line-height: 1.5;
     margin: 10px;
     text-align: center;
+  #spell-lore-button {
+    font-family: 'MedievalSharp';font-size: 32px;
+    text-align: center;
+    display: flex;
+    margin: auto;
   }
