@@ -43,3 +43,82 @@
     
   });
 
+const url = new URL(
+    "https://dddice.com/api/1.0/roll"
+);
+
+const headers = {
+    "Authorization": "Bearer {fAUODjw7EwBEVxtorbf0qTICaSmZ6Xfc5KLkWPyS}",
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "dice": [
+        {
+            "type": "D20",
+            "theme": "dddice-red"
+        },
+        {
+            "type": "D20",
+            "theme": "dddice-red"
+        }
+    ],
+    "external_id": "pariatur",
+    "operator": {
+        "k": "\"h2\"",
+        "p": "suscipit",
+        "rr": "aut",
+        "ro": "et",
+        "ra": "magni",
+        "e": "rerum",
+        "mi": 1633244.09,
+        "ma": 58.63
+    },
+    "label": "\"Longbow damage with Hunter's Mark\"",
+    "room": "HvvOlTl",
+    "whisper": [
+        213207.481552
+    ]
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response => response.json());
+
+
+
+
+
+
+// Spell Generator JS
+
+var spellLoreButton = document.getElementById("spell-lore-button")
+var spellName = document.getElementById("spell-name")
+var spellDescription = document.getElementById("spell-description")
+
+    async function getSpells(){
+        const spellResponse = await fetch('https://www.dnd5eapi.co/api/spells');
+        var dndSpells = await spellResponse.json();
+        console.log(dndSpells)
+                  
+        num = Math.floor(Math.random()*320)
+        spellTitle = dndSpells.results[num].index
+               
+        randomSpell= 'https://www.dnd5eapi.co/api/spells/' + spellTitle
+            
+        var urlResponse = await fetch(randomSpell)
+        var spellObj = await urlResponse.json()
+        console.log(spellObj.name)
+        console.log(spellObj.desc)  
+        spellName.innerText = spellObj.name
+        spellDescription.innerText = spellObj.desc
+        console.log(spellName.innerText)
+        console.log(spellDescription.innerText)            
+}
+    spellLoreButton.addEventListener("click", () => {
+        getSpells()
+        })
+// Spell Generator JS
