@@ -1,6 +1,6 @@
 # Villainous Lair
 
-![Imgur Image](https://imgur.com/mRuSBz9.gif)
+![Imgur Image](https://imgur.com/RSSA8sq)
 
 ## User Story
  AS a D&D fan
