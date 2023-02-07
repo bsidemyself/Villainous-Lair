@@ -1,4 +1,5 @@
 
+
   function createCharacter() {
 
     // Get the character information from the form
@@ -35,6 +36,7 @@
         `;
       }
     }
+    
     // Displays the character information in the card when you click submit.
   const form = document.querySelector("form");
   form.addEventListener("submit", function(event) {
