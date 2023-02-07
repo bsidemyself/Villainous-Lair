@@ -1,4 +1,5 @@
 
+
   function createCharacter() {
 
     // Get the character information from the form
@@ -35,6 +36,7 @@
         `;
       }
     }
+    
     // Displays the character information in the card when you click submit.
   const form = document.querySelector("form");
   form.addEventListener("submit", function(event) {
@@ -98,6 +100,7 @@ fetch(url, {
 var spellLoreButton = document.getElementById("spell-lore-button")
 var spellName = document.getElementById("spell-name")
 var spellDescription = document.getElementById("spell-description")
+var cardContainer = document.querySelector(".card-container");
 
     async function getSpells(){
         const spellResponse = await fetch('https://www.dnd5eapi.co/api/spells');
@@ -120,5 +123,6 @@ var spellDescription = document.getElementById("spell-description")
 }
     spellLoreButton.addEventListener("click", () => {
         getSpells()
+        cardContainer.style.display = "block";
         })
 // Spell Generator JS

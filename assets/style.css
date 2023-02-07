@@ -4,6 +4,7 @@
 }
 
 :root {
+    transition: 0.4s;
     --black: black;
     --red: rgb(128, 1, 1);
     --gold: rgb(177, 166, 14);
@@ -13,7 +14,19 @@
 body {
     font-family: 'MedievalSharp';font-size: 22px;
     background-color: var(--black);
+    overflow-x: hidden;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f5f5f525;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--red);
+    border-radius: 10px;
+  }
+
 header {
     background-image: url(../assets/images/29bfdabcfc9cd4ef93336011e7d17532.jpg);
     background-blend-mode: lighten;
@@ -28,15 +41,17 @@ header {
   }
 
   .gif {
-    display: inline-block;
-    vertical-align: middle;
+    display: inline-flex;
+    vertical-align: center;
     margin-left: 1rem;
+    border: solid var(--black);
+    border-radius: 1rem;
   }
 
   header h1 {
     color: var(--gold);
-    padding-left: 20px;
-    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    display: inline-flex;
     vertical-align: middle;
     
   }
@@ -60,16 +75,17 @@ nav ul li a {
     margin-right: 25px;
 }
 #bkgnd-photo1 {
-    display: flex;
+    display: inline-flex;
+    align-items: flex;
     margin: 0;
     padding: 0;
     background-image: url(../assets/images/jeff-easley-16.jpg);
     background-size: cover;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     opacity: 85%;
-
+    overflow: auto;
 }
 
 #bkgnd-photo2 {
@@ -112,12 +128,6 @@ nav ul li a {
     opacity: 85%;
 
 }
-#location-message {
-    color: var(--black);
-    text-decoration: solid;
-    margin-top: 30px;
-    text-align: center;
-}
  
 
 footer {
@@ -140,10 +150,6 @@ a:hover {
     transition: 0.3s;
 }
 
-#roll-dice:hover {
-  cursor: pointer;
-  color: var(--red);
-}
 
   #roll-dice {
     color: var(--gold);

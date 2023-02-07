@@ -4,21 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Villianous Lair</title>
-    <section class="demo">
-        <article class="demo-example">
-          <i class="fad fa-biohazard fa-fw" style="color: darkorange;"></i>
-        </article>
-        
+    <title>Villainous Lair</title>
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=MedievalSharp'>
     <link rel="stylesheet" href="./assets/style.css">
-    <div>
-    <title>Villianous Lair</title>
-    
-</div>
-   
+    <link rel="stylesheet" href="./assets/indexStyle.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="page-nav-list">
+                <li><a href="character.html">Create a Character</a></li>
+                <li><a href="location.html">Game Store Locations</a></li>
+                <li><a href="credits.html">Site Credits</a></li>
+            </ul>
+        </nav>
+        <h1 class="name-title">Villainous Lair</h1>
+        <img class="gif" src="assets/images/7bb8d4aa96436f2 (1) (1).gif" max-width="100%" height="100%">
+        </h1>
+    </header>
+    <section id="bkgnd-photo1">
+        <div class="container">
+            <button id="roll-dice" href="https://dddice.com/?ref=header" target="popup" onclick="window.open('https://dddice.com/?ref=header','popup','width=600,height=600'); return false;">
+                Click here to Roll Dice!
+            </button>
+        </div>
+        <div class="container">
+            <button id="spell-lore-button">Click Here to View a Random Spell!</button>
+        </div>
+        <form id="spell-generator">
+            
+            <div class="card-container" style="display: none;">
+              <div class="card">
+                <h2 id="spell-name"></h2>
+                <p id="spell-description"></p>
+              </div>
+            </div>
+
         <header>
             <nav>
                 <ul class="page-nav-list">
@@ -69,7 +90,12 @@ function NewTab() {
 <!-- Spell Generator Code -->        
         
 </script>
-
+    </section>
+    <footer>
+        By Dillon, Matthew, Stephen and James. All images and D&D content used for education purposes only and copyright their respective owners.
+    </footer>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
+
 
