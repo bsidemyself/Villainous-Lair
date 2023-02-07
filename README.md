@@ -1,4 +1,7 @@
-# group-project1
+# Villainous Lair
+
+![Imgur Image](https://i.imgur.com/RSSA8sq.jpg)
+
 ## User Story
  AS a D&D fan
 I want to to learn more about the fantasy world, be able to make a random character, and find the nearest game/hobby store
