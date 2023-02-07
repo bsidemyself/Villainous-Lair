@@ -2,6 +2,8 @@
 
 ![Imgur Image](https://i.imgur.com/RSSA8sq.jpg)
 
+Click [here](https://bsidemyself.github.io/Villainous-Lair/) to be redirected to Villainous Lair!
+
 ## User Story
  AS a D&D fan
 I want to to learn more about the fantasy world, be able to make a random character, and find the nearest game/hobby store
