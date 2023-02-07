@@ -1,5 +1,5 @@
 
-
+// this function lets the user create a basic starting character
   function createCharacter() {
 
     // Get the character information from the form
@@ -44,7 +44,8 @@
     createCharacter();
     
   });
-
+  
+// this is for the dice roller API widget on the index page
 const url = new URL(
     "https://dddice.com/api/1.0/roll"
 );
@@ -96,7 +97,7 @@ fetch(url, {
 
 
 // Spell Generator JS
-
+// this function will pull a random spell and description from the DND 5e API linked below
 var spellLoreButton = document.getElementById("spell-lore-button")
 var spellName = document.getElementById("spell-name")
 var spellDescription = document.getElementById("spell-description")
