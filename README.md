@@ -16,3 +16,12 @@ It is done:
 * THEN I am taken to another page with a section that requires user-input to create and display the character description
 * WHEN I click the “Game Store Locations” option in the navbar
 * THEN I am taken to another page where I can see the local game stores around San Diego
+
+## Site Credits
+Stephen Shackleton, Matthew Sartor, Dillon Tinkham, James Xiong
+
+## Resources Used
+Dungeons & Dragons 5e API: http://www.dnd5eapi.co/
+Google Maps Embed API: https://developers.google.com/maps/apis-by-platform
+dddice Dice Roller API Widget: https://dddice.com/?ref=header
+Snazzy Maps (for the custom map widget): https://snazzymaps.com/
