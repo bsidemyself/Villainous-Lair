@@ -21,7 +21,7 @@ It is done:
 Stephen Shackleton, Matthew Sartor, Dillon Tinkham, James Xiong
 
 ## Resources Used
-Dungeons & Dragons 5e API: http://www.dnd5eapi.co/
-Google Maps Embed API: https://developers.google.com/maps/apis-by-platform
-dddice Dice Roller API Widget: https://dddice.com/?ref=header
-Snazzy Maps (for the custom map widget): https://snazzymaps.com/
+* Dungeons & Dragons 5e API: http://www.dnd5eapi.co/
+* Google Maps Embed API: https://developers.google.com/maps/apis-by-platform
+* dddice Dice Roller API Widget: https://dddice.com/?ref=header
+* Snazzy Maps (for the custom map widget): https://snazzymaps.com/
